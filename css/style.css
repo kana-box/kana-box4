@@ -115,7 +115,7 @@ img{
   color:#432;
 }
 
-/* main */
+/* about-main */
 article{
   width:1000px;
 }
@@ -205,6 +205,43 @@ aside p {
   color:#0bd;
 }
 
+/* contents */
+
+#contents{
+  background-image: url(../images/back2.jpg);
+  height:800px;
+  margin-bottom: 40px;
+}
+.menu-content{
+  max-width:560px;
+  margin-top:10%;
+}
+
+.menu-content, .page-title{
+ text-align: center;
+}
+
+.menu-content h2{
+  text-transform: uppercase;
+  color:#432;
+}
+
+/* contents main */
+
+.grid{
+  display: grid;
+  gap:26px;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 6%;
+  margin-bottom: 50px;
+  width:80%;
+}
+
+.item img{
+  width:70%;
+  object-fit: cover;
+}
+
 
 /* fotter */
 
@@ -281,6 +318,19 @@ footer p{
 
   .post-title, .post-cat{
     margin-left: 80px;
+  }
+  
+  .menu-content{
+    margin-top: 20%;
+  }
+
+  .grid{
+    display: grid;
+    gap:26px;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    margin-top: 6%;
+    margin-bottom: 50px;
+    width:80%;
   }
 
 }
