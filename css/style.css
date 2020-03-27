@@ -226,6 +226,14 @@ aside p {
   color:#432;
 }
 
+.item p{
+  font-family: "Yu Mincho", "YuMincho", serif;
+}
+
+.item .item-1{
+  height:380px;
+}
+
 /* contents main */
 
 .grid{
