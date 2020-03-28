@@ -229,9 +229,15 @@ aside p {
   font-family: "Yu Mincho", "YuMincho", serif;
 }
 
-.item .item-1{
-  height:380px;
+.grid a{
+  color:#d58d9d;
 }
+
+.grid a:hover{
+color:#0bd;
+}
+
+
 
 /* contents main */
 
@@ -305,6 +311,7 @@ input[type="submit"]{
 input[type="submit"]:hover{
   color:#0bd;
 }
+
 
 .contact-wrapper{
   margin-left: 600px;
