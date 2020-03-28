@@ -298,7 +298,12 @@ input[type="submit"]{
   line-height: 1;
   height:50px;
   width:100px;
-  font-size: 1rem;;
+  font-size: 1rem;
+  display: block;
+}
+
+input[type="submit"]:hover{
+  color:#0bd;
 }
 
 .contact-wrapper{
