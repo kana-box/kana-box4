@@ -445,7 +445,7 @@ footer p{
     }
 
     /* sns */
-
+    .contact-wrapper,
     #sns .section-wrapper{
       flex-direction: column;
     }
