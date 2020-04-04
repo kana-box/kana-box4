@@ -15,6 +15,7 @@
   <meta property="og:description"  content="Kanaのホームページ">
   <meta property="og:image"  content="http://kana-box.github.io/kanabox4/images/ogp.jpg">
   <link rel="stylesheet" href="css/style.css">
+  <script src="js/jquery-3.4.1.min.js"></script>
 
 </head>
 
@@ -24,19 +25,26 @@
   <div id="about" class="big-bg">
   <header class="page-header wrapper">
     <h1><a href="index.html"><img class="logo" src="images/logo.jpg" alt="Kana's HP">Kana's HP</a></h1>
-      <nav>
-        <ul class="main-nav">
-          <li><a href="about.html">about</a></li>
-          <li><a href="contents.html">contents</a></li>
-          <li><a href="contact.html">contact</a></li>
-        </ul>
-      </nav>
+    <nav>
+
+      <ul id="spnavi">
+        <li id="drop_menu_icon">
+          <img src="images/risu5.jpg" alt="">
+        </li>
+        <li id="drop_menu_text">MENU</li>
+      </ul>
+
+      <ul id="drop_menu_hidden">
+        <li><a href="about.html">about</a></li>
+        <li><a href="contents.html">contents</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+    </nav>
   </header>
  
   <div class="wrapper">
     <h2 class="page-title">about</h2>
   </div>
-    
   </div>
 
 
@@ -51,7 +59,7 @@
       <p class="post-cat">カテゴリー ： 私のこと①</p>
     </header>
     <img src="images/kana.jpg">
-    <p>私のやりたいことは、"笑顔"を創りあげることです。<br>
+    <p>私のやりたいことは、"笑顔”を創りあげることです。<br>
       まだまだ道は長いけれど、一人前のWEBデザイナーを目指して日々勉強しています！<br>
       このHPでは、私の成長を記録して参ります。どうぞよろしくお願い致します。</p>
   </article>
@@ -80,6 +88,7 @@
 </div>
 </footer>
 
+<script src="js/script.js"></script>
 </body>
 
 
